@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# battery/power monitor from xfce4
+xfce4-power-manager &
+
+# thunar daemon
+thunar --daemon &
+
+# restore the previous background
+nitrogen --restore &
+
+# status text
+dwmstatus &
+
+exec dwm
