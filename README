@@ -1,0 +1,11 @@
+This is my dwm configuration suite:
+
+- The main config.h, defining keyboard shortcuts, layouts, and general
+  behavior
+- A status line application that shows battery status, battery charge,
+  the date, and the time
+- A desktop session file, which calls...
+- A session script that starts dwm, turns on an ACPI manager, sets the
+  desktop background, and starts a file manager daemon
+- An X.org font configuration file to use my favorite font (DejaVu Sans
+  Mono within dwm)
