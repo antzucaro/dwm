@@ -12,4 +12,7 @@ nitrogen --restore &
 # status text
 dwmstatus &
 
+# systray
+trayer --edge top --align right --widthtype request --transparent true --expand true --alpha 0 --tint 0x222222 &
+
 exec dwm
